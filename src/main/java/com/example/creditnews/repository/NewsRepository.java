@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface NewsRepository extends JpaRepository<NewsEntity, Long> {
+    // 추가 쿼리 메서드 필요 시 정의 가능
 }
 
